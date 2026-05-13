@@ -4,106 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pranjal Kumar Shukla | Backend & ML Engineer</title>
-    <meta name="description" content="Portfolio of Pranjal Kumar Shukla, a Backend Developer & ML Engineer experienced in Spring Boot, Python, and Kubernetes.">
+    <meta name="description" content="Portfolio of Pranjal Kumar Shukla, a Backend Developer & ML Engineer.">
+    <!-- Using Plus Jakarta Sans for that premium modern tech feel -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <nav class="glass-nav">
         <div class="nav-content">
-            <a href="index.html" class="logo">Pranjal</a>
+            <a href="index.html" class="logo">P.</a>
             <div class="links">
                 <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Work</a>
                 <a href="blog.html">Blog</a>
             </div>
+            <a href="mailto:pranjalmss2005@gmail.com" class="btn btn-nav">Contact</a>
         </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-content">
-            <h1>Pranjal Kumar Shukla</h1>
-            <h2>Backend Developer & Machine Learning Engineer</h2>
-            <p>Building scalable microservices, Kubernetes observability platforms, and AI-driven products. <strong>System Design Enthusiast.</strong> FOSSEE (IIT Bombay) Intern.</p>
+        <div class="hero-content reveal">
+            <div class="pill-badge">Available for 2026/27 Roles</div>
+            <h1 class="gradient-text">Architecting scalable<br>backend systems &<br>AI pipelines.</h1>
+            <p>Hi, I'm Pranjal. A Backend Developer & ML Engineer crafting robust microservices, observability platforms, and smart tools. Interning at FOSSEE (IIT Bombay).</p>
             <div class="hero-buttons">
-                <a href="mailto:pranjalmss2005@gmail.com" class="btn primary">Get In Touch</a>
-                <a href="https://github.com/shukla-pranjal" class="btn secondary" target="_blank">GitHub</a>
-                <!-- Link to your resume if you have one uploaded, e.g. resume.pdf -->
-                <a href="#" class="btn secondary">Resume</a>
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="Resume.pdf" class="btn" style="background: rgba(255,255,255,0.05); border: 1px solid var(--border-subtle); color: white;" target="_blank">Resume</a>
+                <a href="https://github.com/shukla-pranjal" class="btn icon-btn" target="_blank" aria-label="GitHub">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
             </div>
         </div>
     </header>
 
     <main>
-        <section id="experience" class="section">
-            <h2 class="section-title">Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Feb 2026 – Present</div>
-                    <div class="timeline-content">
-                        <h3>Software Developer Intern</h3>
-                        <h4>FOSSEE, IIT Bombay (Remote)</h4>
-                        <p>Contributing to OpenFOAM GUI using Python, Blender, and Linux. Automated GUI workflows, reducing manual steps by 60% and improving interaction latency by 35%.</p>
+        <section id="experience" class="section reveal">
+            <h2 class="section-title">Experience.</h2>
+            <div class="bento-grid experience-grid">
+                
+                <div class="bento-card col-span-2">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <h3>Software Developer Intern</h3>
+                            <span class="date">Feb 2026 – Present</span>
+                        </div>
+                        <h4 class="company gradient-text-alt">FOSSEE, IIT Bombay</h4>
+                        <p>Contributing to OpenFOAM GUI using Python, Blender, and Linux. Architected automated GUI workflows, reducing manual steps by 60% and significantly improving interaction latency by 35%.</p>
+                        <div class="tags">
+                            <span>Python</span><span>Blender</span><span>Linux</span><span>OpenFOAM</span>
+                        </div>
                     </div>
                 </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Jul 2024 – Aug 2024</div>
-                    <div class="timeline-content">
-                        <h3>Machine Learning Intern</h3>
-                        <h4>AICTE Edunet (IBM)</h4>
+
+                <div class="bento-card col-span-2">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <h3>Machine Learning Intern</h3>
+                            <span class="date">Jul 2024 – Aug 2024</span>
+                        </div>
+                        <h4 class="company">AICTE Edunet (IBM)</h4>
                         <p>Designed and deployed an end-to-end fake news detection system on IBM Cloud using Scikit-learn, achieving 95%+ accuracy with scalable ML pipelines.</p>
+                        <div class="tags">
+                            <span>Scikit-learn</span><span>IBM Cloud</span><span>ML Pipelines</span>
+                        </div>
                     </div>
                 </div>
+
             </div>
         </section>
 
-        <section id="projects" class="section">
-            <h2 class="section-title">Key Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>AgriProject Platform</h3>
-                    <p class="tech-stack">Spring Boot, React, Python ML</p>
-                    <p>Microservices agriculture platform with 120+ REST APIs, React e-commerce frontend, and Python ML integration for Crop & Fertilizer recommendation (95%+ accuracy).</p>
+        <section id="projects" class="section reveal">
+            <h2 class="section-title">Selected Work.</h2>
+            <div class="bento-grid projects-grid">
+                
+                <!-- Main Featured Project - Spans 2 columns on desktop -->
+                <div class="bento-card project-card featured-project col-span-2">
+                    <div class="card-inner glass-panel">
+                        <div class="project-content">
+                            <h3>AgriProject Platform</h3>
+                            <p class="tech-stack">Spring Boot • React • Python ML • Docker</p>
+                            <p class="desc">A massive microservices agriculture platform orchestrating 120+ REST APIs. Features a React e-commerce frontend (complex shopping flow, 37-state address management) and Python ML integration for Crop & Fertilizer recommendation yielding 95%+ accuracy.</p>
+                            <a href="https://github.com/shukla-pranjal/AgriProject" class="project-link" target="_blank">View Repository →</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>Kubernetes Monitoring System</h3>
-                    <p class="tech-stack">Kubernetes, Docker, Grafana</p>
-                    <p>Containerized observability platform with Horizontal Pod Autoscaling (300% scale). Integrated Prometheus and Grafana for real-time monitoring of resource usage.</p>
+
+                <!-- Secondary Project 1 -->
+                <div class="bento-card project-card col-span-1">
+                    <div class="card-inner glass-panel">
+                        <div class="project-content">
+                            <h3>K8s Monitoring</h3>
+                            <p class="tech-stack">Kubernetes • Docker • Grafana</p>
+                            <p class="desc">Containerized observability platform with Horizontal Pod Autoscaling (up to 300%). Integrated Prometheus/Grafana for real-time monitoring.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>Ascraa Matching Platform</h3>
-                    <p class="tech-stack">Spring Boot, OpenCV, MongoDB</p>
-                    <p>AI-powered internship matching. Optimized OpenCV feature extraction from 600+ landmarks to <20 critical signals, reducing video screening time by 50%.</p>
+
+                <!-- Secondary Project 2 -->
+                <div class="bento-card project-card col-span-1">
+                    <div class="card-inner glass-panel">
+                        <div class="project-content">
+                            <h3>cfMesh Add-on</h3>
+                            <p class="tech-stack">Python • OpenFOAM</p>
+                            <p class="desc">Advanced unstructured mesh generation and real-time CFD simulation visualization directly within Blender's viewport.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>cfMesh Blender Add-on</h3>
-                    <p class="tech-stack">Python, OpenFOAM, Blender</p>
-                    <p>Advanced unstructured mesh generation and real-time CFD simulation visualization directly within Blender's viewport. Handles OpenFOAM background execution.</p>
+
+                <!-- Secondary Project 3 (Spans 2 columns again) -->
+                <div class="bento-card project-card col-span-2">
+                    <div class="card-inner glass-panel">
+                        <div class="project-content">
+                            <h3>Ascraa AI Platform</h3>
+                            <p class="tech-stack">Spring Boot • OpenCV • MongoDB</p>
+                            <p class="desc">AI-powered internship matching platform. Optimized OpenCV feature extraction from 600+ landmarks to <20 critical signals, reducing screening time by 50%.</p>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </section>
 
-        <section id="skills" class="section">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
-                    <h3>Backend & Systems</h3>
+        <section id="skills" class="section reveal">
+            <h2 class="section-title">Capabilities.</h2>
+            <div class="bento-grid skills-grid">
+                <div class="bento-card skill-card glass-panel">
+                    <h3>Backend Architecture</h3>
                     <p>Java, Spring Boot, REST APIs, Microservices, Hibernate, System Design</p>
                 </div>
-                <div class="skill-category">
-                    <h3>ML & Data</h3>
+                <div class="bento-card skill-card glass-panel">
+                    <h3>ML & Data Science</h3>
                     <p>Python, Scikit-learn, Pandas, NumPy, OpenCV, CNN</p>
                 </div>
-                <div class="skill-category">
-                    <h3>DevOps & DB</h3>
+                <div class="bento-card skill-card glass-panel">
+                    <h3>DevOps & Cloud</h3>
                     <p>Docker, Kubernetes, GitHub Actions, Grafana, MySQL</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Pranjal Kumar Shukla. Built with minimal HTML/CSS.</p>
+    <footer class="reveal">
+        <div class="footer-content">
+            <h2 class="gradient-text">Let's build something scalable.</h2>
+            <a href="mailto:pranjalmss2005@gmail.com" class="email-link">pranjalmss2005@gmail.com</a>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pranjal Kumar Shukla.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/shukla-pranjal" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/shukla-pranjal/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <script src="scripts/interactions.js"></script>
 </body>
 </html>
