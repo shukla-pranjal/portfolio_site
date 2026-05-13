@@ -469,6 +469,121 @@ main {
     .links {
         display: none; /* simple mobile nav hide for now */
     }
+    
+    .github-chart {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Terminal Emulator Styles */
+.terminal-window {
+    width: 100%;
+    max-width: 700px;
+    margin: 2rem auto 0;
+    background: rgba(15, 16, 20, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    text-align: left;
+}
+
+.terminal-header {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 0.8rem 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.terminal-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.terminal-btn.close { background: #ff5f56; }
+.terminal-btn.minimize { background: #ffbd2e; }
+.terminal-btn.maximize { background: #27c93f; }
+
+.terminal-title {
+    flex-grow: 1;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-family: monospace;
+    margin-right: 44px; /* to offset the buttons */
+}
+
+.terminal-body {
+    padding: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    color: #e2e8f0;
+    height: 250px;
+    overflow-y: auto;
+    cursor: text;
+}
+
+.terminal-response-line {
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    color: #cbd5e1;
+}
+
+.terminal-command-line {
+    margin-bottom: 0.5rem;
+}
+
+.prompt {
+    color: #27c93f;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#terminal-input {
+    background: transparent;
+    border: none;
+    color: #e2e8f0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    flex-grow: 1;
+    outline: none;
+}
+
+/* GitHub Chart Styles */
+.github-card {
+    grid-column: span 3;
+}
+
+.github-chart-container {
+    width: 100%;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    background: rgba(255,255,255,0.03);
+    padding: 1rem;
+    border-radius: 12px;
+    /* Invert colors slightly for dark mode depending on SVG response */
+    filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.1));
+}
+
+.github-chart {
+    max-width: 100%;
 }
 
 /* Blog Specific Styles */
